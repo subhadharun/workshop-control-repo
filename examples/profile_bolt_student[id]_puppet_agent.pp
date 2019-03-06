@@ -1,4 +1,4 @@
-class profile::bolt_student99_puppet_agent {
+class profile::bolt_student(id)_puppet_agent {
 
   service { 'puppet':
     ensure => running,
